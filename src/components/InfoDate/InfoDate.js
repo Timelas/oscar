@@ -11,14 +11,13 @@ function InfoDate() {
         <div className="info-date__our-wedding"><p className="info-date__our-wedding-text">Нашу свадьбу!</p></div>
       </div>
       <div className="info-date__place" id="place">
-        <div className="info-date__stone"></div>
-        <div className="info-date__stone2"></div>
         <div className="info-date__check-in">
           <p className="info-date__what">Торжественная регистрация</p>
           <p className="info-date__where">Теплоход "Амели"</p>
         </div>
         <p className="info-date__day-week">Воскресенье</p>
         <div className="info-date__day">
+          <div className="info-date__stone"></div>
           <p className="info-date__number">25</p>
           <div className="info-date__vertical-line"></div>
           <p className="info-date__number">06</p>

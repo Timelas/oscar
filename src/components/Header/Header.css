@@ -76,7 +76,7 @@
 .header__info_name {
   font-family: "rosamarena", "Arial", sans-serif;
   font-size: 100px;
-  line-height: 120pt;
+  line-height: 120px;
   margin: 0;
   text-shadow: -.1px 0 black;
 }
@@ -92,20 +92,20 @@
 }
 
 .header__stone {
-  background-image: url(../../images/stone1.svg);
+  background-image: url(../../images/stone6.svg);
   position: absolute;
   background-size: contain;
-  width: 500px;
-  height: 850px;
-  top: 650px;
-  right: 100px;
+  width: 650px;
+  height: 400px;
+  top: 370px;
+  right: 550px;
   background-repeat: no-repeat;
   background-color: transparent;
   z-index: -1;
 }
 
 .header__stone2 {
-  background-image: url(../../images/stone2.svg);
+  background-image: url(../../images/stone4.svg);
   position: absolute;
   background-size: contain;
   width: 700px;

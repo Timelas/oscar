@@ -13,7 +13,7 @@
   grid-template-areas:
     "rings text-foto glasses text-plate music text-cake car"
     "line-rings line-foto line-glasses line-plate line-music line-cake line-car"
-    "text-rings foto text-glasses plate text-music cake text-car";
+    "text-rings plate text-glasses foto text-music cake text-car";
   margin-top: 70px;
   align-items: center;
   justify-items: center;

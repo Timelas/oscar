@@ -7,14 +7,41 @@
   width: 100%;
 }
 
+.title__block {
+  margin: 0;
+  align-self: center;
+  text-align: start;
+  position: relative;
+}
+
 .title__title {
   font-family: "rosamarena", "Arial", sans-serif;
   font-size: 80px;
   line-height: 90px;
   font-weight: normal;
-  margin: 0;
+  margin: 0 0 20px;
   align-self: center;
   text-align: start;
+  position: relative;
+  z-index: 2;
+}
+
+.title__stone {
+  background-image: url(../../images/stone2.svg);
+  position: absolute;
+  background-size: contain;
+  width: 600px;
+  height: 300px;
+  top: -60px;
+  left: -160px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  z-index: 1;
+  display: none;
+}
+
+.title__stone_visible {
+  display: flex;
 }
 
 @media screen and (max-width: 1700px) {

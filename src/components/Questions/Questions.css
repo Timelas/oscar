@@ -13,7 +13,7 @@
 }
 
 .question__stone {
-  background-image: url(../../images/stone8.svg);
+  background-image: url(../../images/stone4.svg);
   position: absolute;
   background-size: contain;
   width: 1100px;
@@ -38,14 +38,6 @@
   font-size: 120px;
   font-weight: 200;
   margin: 0;
-}
-
-.question__trait {
-  width: 27%;
-  height: 2px;
-  background-color: black;
-  margin: 80px 50px 0 0;
-  z-index: 2;
 }
 
 .question__text {
@@ -109,7 +101,7 @@
 .question__button {
   width: 200px;
   height: 50px;
-  background-color: #a8bdad;
+  background-color: #c2c2c2;
   font-size: 12pt;
   border: none;
   align-self: center;
@@ -187,17 +179,6 @@
     box-shadow: 0 0 5px #f8f7f0;
 }
 
-.question__figure {
-  background-image: url(../../images/figure.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: absolute;
-  top: -40px;
-  left: 0;
-  width: 100px;
-  height: 300px;
-}
-
 @media screen and (max-width: 1700px) {
   .question {
     padding: 70px 0 0;
@@ -209,16 +190,6 @@
 
   .question__title {
     font-size: 100px;
-  }
-
-  .question__trait {
-    margin: 60px 50px 0 0;
-  }
-
-  .question__figure {
-    top: -40px;
-    width: 90px;
-    height: 250px;
   }
 
   .question__text {
@@ -267,16 +238,6 @@
 
   .question__title {
     font-size: 70px;
-  }
-
-  .question__trait {
-    margin: 40px 50px 0 0;
-  }
-
-  .question__figure {
-    top: -40px;
-    width: 70px;
-    height: 200px;
   }
 
   .question__text {
@@ -333,15 +294,6 @@
     font-size: 60px;
     line-height: 50px;
     text-align: start;
-  }
-
-  .question__trait {
-    height: 1px;
-    margin: 0;
-  }
-
-  .question__figure {
-    opacity: 0;
   }
 
   .question__text {

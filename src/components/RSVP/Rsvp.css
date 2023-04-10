@@ -27,14 +27,6 @@
   margin: 0;
 }
 
-.rsvp__trait {
-  width: 27%;
-  height: 2px;
-  background-color: black;
-  margin: 80px 50px 0 0;
-  z-index: 2;
-}
-
 .rsvp__text {
   font-size: 20px;
   line-height: 37px;
@@ -85,19 +77,6 @@
   align-items: center;
 }
 
-.rsvp__stone {
-  background-image: url(../../images/stone7.svg);
-  position: absolute;
-  background-size: contain;
-  width: 800px;
-  height: 800px;
-  top: 100px;
-  left: -200px;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  z-index: -1;
-}
-
 .rsvp__input {
   width: 340px;
   height: 55px;
@@ -119,7 +98,7 @@
 .rsvp__button {
   width: 200px;
   height: 50px;
-  background-color: #a8bdad;
+  background-color: #bababa;
   font-size: 12pt;
   border: none;
   align-self: center;
@@ -133,17 +112,6 @@
   opacity: .7;
 }
 
-.rsvp__figure {
-  background-image: url(../../images/figure.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: absolute;
-  top: -40px;
-  left: 0;
-  width: 100px;
-  height: 300px;
-}
-
 @media screen and (max-width: 1700px) {
   .rsvp {
     padding: 70px 0 0;
@@ -155,16 +123,6 @@
 
   .rsvp__title {
     font-size: 100px;
-  }
-
-  .rsvp__trait {
-    margin: 60px 50px 0 0;
-  }
-
-  .rsvp__figure {
-    top: -30px;
-    width: 90px;
-    height: 250px;
   }
 
   .rsvp__text {
@@ -213,18 +171,8 @@
     margin-bottom: 50px;
   }
 
-  .rsvp__figure {
-    top: -40px;
-    width: 70px;
-    height: 200px;
-  }
-
   .rsvp__title {
     font-size: 70px;
-  }
-
-  .rsvp__trait {
-    margin: 40px 50px 0 0;
   }
 
   .rsvp__text {
@@ -295,15 +243,6 @@
   .rsvp__title {
     font-size: 60px;
     text-align: start;
-  }
-
-  .rsvp__trait {
-    height: 1px;
-    margin: 40px 30px 0 0;
-  }
-
-  .rsvp__figure {
-    opacity: 0;
   }
 
   .rsvp__text {

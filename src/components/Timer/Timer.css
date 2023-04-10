@@ -15,26 +15,6 @@
   justify-content: flex-end;
 }
 
-.timer__figure {
-  background-image: url(../../images/figure.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: absolute;
-  top: -50px;
-  right: 0;
-  width: 100px;
-  height: 300px;
-  transform: rotate(180deg);
-}
-
-.timer__trait {
-  width: 27%;
-  height: 2px;
-  background-color: black;
-  margin: 0;
-  z-index: 2;
-}
-
 .timer__block {
   display: flex;
   flex-direction: column;
@@ -81,7 +61,7 @@
 }
 
 .timer__number_var_hour {
-background-color: #6c827a;
+background-color: #4b665c;
 }
 
 .timer__number_var_min {
@@ -89,7 +69,7 @@ background-color: #949786;
 }
 
 .timer__number_var_sec {
-background-color: #3b633b;
+background-color: #000000;
 }
 
 .timer__text {
@@ -103,16 +83,6 @@ background-color: #3b633b;
 
   .timer__header {
     margin-bottom: 60px;
-  }
-
-  .timer__figure {
-    top: -50px;
-    width: 90px;
-    height: 250px;
-  }
-
-  .timer__trait {
-    margin: 0;
   }
 
   .timer__title {
@@ -131,16 +101,6 @@ background-color: #3b633b;
 
   .timer__header {
     margin-bottom: 50px;
-  }
-
-  .timer__figure {
-    top: -10px;
-    width: 70px;
-    height: 200px;
-  }
-
-  .timer__trait {
-    margin: 40px 0 0;
   }
 
   .timer__title {
@@ -176,15 +136,6 @@ background-color: #3b633b;
     margin-bottom: 30px;
     height: 1px;
     align-self: flex-start;
-  }
-
-  .timer__figure {
-    opacity: 0;
-  }
-
-  .timer__trait {
-    height: 1px;
-    margin: 0;
   }
 
   .timer__title {

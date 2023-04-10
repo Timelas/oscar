@@ -53,7 +53,7 @@ function App() {
         onVisibleBurger={changeBurger} />
       <div className='App__main'>
         <Main 
-          date={"2023-07-20T15:30:00+00:00"}
+          date={"2023-06-25T19:00:00+00:00"}
           renderer={renderer}
           isOpenBurger={isOpenBurger}
           onCloseBurger={changeBurger}/>

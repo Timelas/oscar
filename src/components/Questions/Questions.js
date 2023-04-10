@@ -27,7 +27,7 @@ function Questions() {
   
   return (
     <section className="question" id="questions">
-      <Title title={"Опрос"}/>
+      <Title title={"Опрос"} stone={true}/>
       <div className="question__stone"></div>
       { isFormVisible ?
         <div className="question__container">

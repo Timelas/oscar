@@ -57,8 +57,9 @@
   row-gap: 20px;
   column-gap: 15px;
   position: relative;
-  background-color: #00000025;
+  background-color: #000000;
   min-height: 450px;
+  color: white;
 }
 
 .info-date__check-in {
@@ -94,27 +95,13 @@
 }
 
 .info-date__stone {
-  background-image: url(../../images/line.svg);
+  background-image: url(../../images/stone.svg);
   position: absolute;
   background-size: contain;
-  width: 600px;
-  height: 100%;
+  width: 550px;
+  height: 300px;
   top: 0;
-  left: 0;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  z-index: -1;
-}
-
-.info-date__stone2 {
-  background-image: url(../../images/line.svg);
-  position: absolute;
-  background-size: contain;
-  transform: scaleX(-1);
-  width: 600px;
-  height: 100%;
-  top: 0;
-  right: 0;
+  left: -100px;
   background-repeat: no-repeat;
   background-color: transparent;
   z-index: -1;
@@ -127,13 +114,14 @@
   align-items: center;
   justify-content: center;
   justify-self: center;
-  background-color: #00000065;
   border-radius: 21px;
   padding: 30px;
   box-sizing: border-box;
   max-width: 400px;
   min-width: 360px;
   z-index: 3;
+  position: relative;
+  color: black;
 }
 
 .info-date__number {
@@ -153,7 +141,7 @@
   grid-area: time;
   font-size: 22px;
   line-height: 29px;
-  margin: 0;
+  margin: 20px 0 0;
   justify-self: center;
 }
 

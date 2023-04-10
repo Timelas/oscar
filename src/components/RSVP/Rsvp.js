@@ -58,7 +58,6 @@ function Rsvp() {
   return (
     <section className="rsvp" id="rsvp">
       <Title title={"RSVP"}/>
-      <div className="rsvp__stone"></div>
       { isFormVisible ?
       <div className="rsvp__container">
         <p className="rsvp__text">Пожалуйста, подтвердите ваше присутствие на нашем празднике до
