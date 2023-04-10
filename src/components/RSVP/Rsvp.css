@@ -81,7 +81,7 @@
   width: 340px;
   height: 55px;
   border-radius: 3.5px;
-  border: .5px solid #a8bdad;
+  border: .5px solid rgb(99, 60, 60);
   font-size: 20px;
   padding: 5px;
   box-sizing: border-box;
@@ -98,7 +98,7 @@
 .rsvp__button {
   width: 200px;
   height: 50px;
-  background-color: #bababa;
+  background-color: #836969;
   font-size: 12pt;
   border: none;
   align-self: center;

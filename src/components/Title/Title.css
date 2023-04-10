@@ -49,6 +49,13 @@
     font-size: 70px;
     line-height: 80px;
   }
+
+  .title__stone {
+    width: 470px;
+    height: 200px;
+    top: -45px;
+    left: -100px;
+  }
 }
 
 @media screen and (max-width: 1300px) {

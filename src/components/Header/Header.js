@@ -10,11 +10,11 @@ function Header() {
       {
         resize ? (
           <div className="header__desctop">
-            <div className="header__stone"></div>
             <div className="header__stone2"></div>
             <img src={newlyweds} className="header__image" alt="молодожены"></img>
             <div className="header__info">
               <div className="header__info-names">
+                <div className="header__stone"></div>
                 <p className="header__info_name">Ксения и</p>
                 <p className="header__info_name header__info_name_two">Андрей</p>
               </div>

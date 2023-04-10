@@ -92,7 +92,7 @@
   width: 100%;
   height: 55px;
   border-radius: 3.5px;
-  border: .5px solid #a8bdad;
+  border: .5px solid #633c3c;
   font-size: 15pt;
   padding: 5px;
   box-sizing: border-box;
@@ -101,7 +101,7 @@
 .question__button {
   width: 200px;
   height: 50px;
-  background-color: #c2c2c2;
+  background-color: #836969;
   font-size: 12pt;
   border: none;
   align-self: center;
@@ -136,11 +136,11 @@
 }
 
 .question__unvisible:checked + .question__visible-radio {
-  background-color: #2b553a;
+  background-color: #633c3c;
 }
 
 .question__unvisible:disabled + .question__visible-radio {
-  border: 1px solid #2b553a;
+  border: 1px solid #633c3c;
   background-color: #fbf8ec;
 }
 
@@ -163,11 +163,11 @@
 }
 
 .question__unvisible:checked + .question__visible-checkbox {
-  background-color: #2b553a;
+  background-color: #633c3c;
 }
 
 .question__unvisible:disabled + .question__visible-checkbox {
-  border: 1px solid #2b553a;
+  border: 1px solid #633c3c;
   background-color: #fbf8ec;
 }
 
@@ -227,7 +227,7 @@
     width: 700px;
     height: 700px;
     top: 0;
-    right: -200px;
+    right: -400px;
   }
 }
 
