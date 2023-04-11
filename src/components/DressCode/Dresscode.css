@@ -6,6 +6,30 @@
   position: relative;
 }
 
+.dresscode__title {
+  margin: 0;
+}
+
+.dresscode__text {
+  font-family: "rosamarena", "Arial", sans-serif;
+  font-size: 80px;
+  line-height: 90px;
+  font-weight: normal;
+  margin: 0 0 20px;
+  align-self: center;
+  text-align: start;
+}
+
+.dresscode__stone {
+  position: absolute;
+  object-fit: contain;
+  width: 1000px;
+  height: 800px;
+  top: -60px;
+  left: -700px;
+  left: -2;
+}
+
 .dresscode__description {
   font-size: 20px;
   line-height: 37px;
@@ -65,13 +89,13 @@
 
   .dresscode__title {
     font-size: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 0;
   }
 
   .dresscode__description {
     font-size: 18px;
     width: 70%;
-    margin: 40px 0 0;
+    margin: 30px 0 0;
   }
 
   .dresscode__colors {
@@ -83,6 +107,13 @@
   .dresscode__color {
     height: 400px;
     max-width: 290px;
+  }
+
+  .dresscode__stone {
+    width: 700px;
+    height: 600px;
+    top: -60px;
+    left: -500px;
   }
 }
 
@@ -107,8 +138,15 @@
   }
 
   .dresscode__color {
-    width: 62px;
-    height: 62px;
+    height: 350px;
+    max-width: 250px;
+  }
+
+  .dresscode__stone {
+    width: 600px;
+    height: 500px;
+    top: -60px;
+    left: -450px;
   }
 }
 
@@ -139,11 +177,48 @@
 
   .dresscode__colors {
     margin: 30px 0 0;
-    gap: 15px;
+    gap: 10px;
+    max-width: 420px;
   }
 
   .dresscode__color {
-    width: 37px;
-    height: 37px;
+    height: 250px;
+    max-width: 200px;
+    min-width: 170px;
+  }
+  
+  .dresscode__color_var_three {
+    display: none;
+  }
+  
+  .dresscode__color_var_six {
+    display: none;
+  }
+
+  .dresscode__stone {
+    width: 500px;
+    height: 400px;
+    top: 160px;
+    left: -400px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .dresscode__stone {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .dresscode__colors {
+    margin: 30px 0 0;
+    gap: 10px;
+    width: 90%;
+    max-width: 420px;
+  }
+
+  .dresscode__color {
+    height: 220px;
+    min-width: 130px;
   }
 }

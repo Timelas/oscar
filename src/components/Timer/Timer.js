@@ -1,4 +1,5 @@
 import React from "react";
+import line from "../../images/stone4.svg";
 import "./Timer.css";
 
 function Timer ( props ) {
@@ -48,6 +49,7 @@ function Timer ( props ) {
   return (
     <section className="timer">
       <div className="timer__block">
+      <img className="timer__stone" src={line} alt="линии"></img>
         <p className="timer__title">До свадьбы осталось:</p>
         <div className="timer__bloks">
           <div className="timer__block-info">

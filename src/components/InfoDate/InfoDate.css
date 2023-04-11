@@ -22,8 +22,8 @@
 .info-date__text {
   font-size: 20px;
   line-height: 40px;
-  width: 70%;
-  margin: 70px 0 50px;
+  width: 60%;
+  margin: 70px 0 0;
 }
 
 .info-date__our-wedding {
@@ -90,18 +90,19 @@
   font-family: "rosamarena", "Arial", sans-serif;
   grid-area: day-week;
   font-size: 50px;
-  margin: 0;
+  margin: 0 0 25px;
   justify-self: center;
+  z-index: 3;
 }
 
 .info-date__stone {
-  background-image: url(../../images/stone.svg);
+  background-image: url(../../images/line2.svg);
   position: absolute;
   background-size: contain;
-  width: 550px;
-  height: 300px;
-  top: 0;
-  left: -100px;
+  width: calc(100% + 20px);
+  height: 350px;
+  top: -50px;
+  left: 0;
   background-repeat: no-repeat;
   background-color: transparent;
   z-index: -1;
@@ -119,9 +120,9 @@
   box-sizing: border-box;
   max-width: 400px;
   min-width: 360px;
-  z-index: 3;
+  z-index: 2;
   position: relative;
-  color: black;
+  color: white;
 }
 
 .info-date__number {
@@ -133,7 +134,7 @@
 .info-date__vertical-line {
   height: 80px;
   width: 1px;
-  background-color: black;
+  background-color: white;
   margin: 0 15px;
 }
 
@@ -143,6 +144,7 @@
   line-height: 29px;
   margin: 20px 0 0;
   justify-self: center;
+  z-index: 3;
 }
 
 .info-date__banquet {
@@ -212,10 +214,7 @@
   }
 
   .info-date__stone {
-    width: 380px;
-    height: 150px;
-    top: 0;
-    left: -60px;
+    top: -40px;
   }
 }
 
@@ -290,10 +289,9 @@
   }
 
   .info-date__stone {
-    width: 800px;
-    height: 800px;
-    top: 370px;
-    left: 350px;
+    width: calc(100% + 30px);
+    top: -30px;
+    left: -10px;
   }
 }
 
@@ -308,14 +306,13 @@
   }
 
   .info-date__stone {
-    width: 600px;
-    height: 600px;
-    top: 300px;
-    left: 300px;
+    top: -30px;
+    left: -10px;
+    height: 200px;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .info-date__our-wedding {
     width: 350px;
     border-radius: 50px;
@@ -329,6 +326,7 @@
   .info-date__place {
     padding: 80px 0;
     margin-top: 50px;
+    min-height: 400px;
   }
 
   .info-date__check-in {
@@ -452,6 +450,8 @@
   }
 
   .info-date__stone {
-    display: none;
+    width: calc(100% + 10px);
+    top: -20px;
+    left: 0;
   }
 }

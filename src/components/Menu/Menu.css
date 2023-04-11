@@ -10,7 +10,13 @@
   top: 0;
   background-color: #ffffff;
   z-index: 4;
+  transition: background-color 1s;
 }
+
+.menu__background {
+  background-color: rgba(255, 255, 255, 0.57);
+}
+
 
 .menu__stone {
   background-image: url(../../images/stone.svg);
@@ -70,7 +76,7 @@
   position: absolute;
   height: 5px;
   width: 100%;
-  background: #748a78;
+  background: #818181;
   border-radius: 9px;
   opacity: 1;
   left: 0;

@@ -4,6 +4,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  height: calc(100vh - 100px);
 }
 
 .header__desctop {
@@ -38,6 +39,7 @@
   align-items: center;
   justify-content: center;
   margin: 20px 0 0;
+  max-width: 200px;
 }
 
 .header__info_names-mobile {
@@ -56,8 +58,8 @@
 }
 
 .header__image {
-  width: 700px;
-  height: 1050px;
+  max-width: 700px;
+  height: 90%;
   object-fit: cover;
   z-index: 2;
 }
@@ -93,13 +95,14 @@
 }
 
 .header__stone {
-  background-image: url(../../images/stone6.svg);
+  background-image: url(../../images/line.svg);
+  transform: scaleX(-1);
   position: absolute;
   background-size: contain;
-  width: 650px;
-  height: 400px;
-  top: -50px;
-  left: -100px;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
   background-repeat: no-repeat;
   background-color: transparent;
   z-index: -1;
@@ -118,14 +121,19 @@
   z-index: -1;
 }
 
+@media screen and (max-width: 2300px) {
+  .header__stone {
+    right: -200px;
+  }
+}
+
 @media screen and (max-width: 1700px) {
   .header__desctop {
     padding: 30px 0 0;
   }
 
   .header__image {
-    width: 420px;
-    height: 600px;
+    max-width: 420px;
   }
 
   .header__info-names {
@@ -158,26 +166,22 @@
   }
 
   .header__image {
-    width: 380px;
-    height: 580px;
+    max-width: 380px;
   }
 
   .header__info {
     max-width: 600px;
   }
 
-  .header__stone {
-    width: 550px;
-    height: 270px;
-    top: -20px;
-    left: -90px;
+  .header__info-names {
+    max-width: 300px;
   }
   
   .header__stone2 {
     width: 600px;
     height: 600px;
     bottom: -400px;
-    left: -250px;
+    left: -150px;
   }
 }
 
@@ -208,15 +212,24 @@
     max-width: 500px;
     padding: 0 30px;
   }
-
-  .header__stone {
-    width: 500px;
-    height: 500px;
-  }
   
   .header__stone2 {
     width: 500px;
     height: 500px;
+  }
+
+  .header__stone {
+    right: -200px;
+  }
+
+  .header__info-names {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .header {
+    max-height: 650px;
   }
 }
 
@@ -230,6 +243,10 @@
     line-height: 70pt;
   }
 
+  .header__info-names {
+    max-width: 200px;
+  }
+
   .header__title {
     font-size: 14px;
     margin: 20px 0 40px 0;
@@ -238,13 +255,6 @@
   .header__image {
     width: 300px;
     height: 480px;
-  }
-
-  .header__stone {
-    width: 400px;
-    height: 400px;
-    top: 50px;
-    right: -130px;
   }
   
   .header__stone2 {
@@ -301,11 +311,7 @@
   }
 
   .header__stone {
-    background-image: url(../../images/stone.svg);
-    width: 400px;
-    height: 400px;
-    top: -270px;
-    left: -130px;
+    display: none;
   }
 }
 
@@ -324,5 +330,18 @@
 
   .header__title {
     font-size: 12px;
+  }
+
+  .header__stone3 {
+    background-image: url(../../images/line5.svg);
+    position: absolute;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    top: 50px;
+    left: 0;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    z-index: -1;
   }
 }

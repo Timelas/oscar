@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name=" Слой 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 405.61 587.4">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: url(#_Безымянный_градиент_4);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 5px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke: url(#_Безымянный_градиент_3);
+      }
+
+      .cls-3 {
+        stroke: url(#_Безымянный_градиент);
+        stroke-width: 4px;
+      }
+
+      .cls-4 {
+        stroke: url(#_Безымянный_градиент_2);
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент" data-name="Безымянный градиент" x1="-1315.26" y1="284.9" x2="-1098.01" y2="284.9" gradientTransform="translate(-1098.74 633.63) rotate(179.62) scale(1.02 1.09) skewX(4.44)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b37e10"/>
+      <stop offset=".05" stop-color="#b78316"/>
+      <stop offset=".49" stop-color="#dab34c"/>
+      <stop offset=".82" stop-color="#efd16e"/>
+      <stop offset="1" stop-color="#f8dd7b"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_2" data-name="Безымянный градиент 2" x1="-1163.26" y1="35.19" x2="-1042.32" y2="35.19" gradientTransform="translate(1199.55 235.29) rotate(-12.26) scale(1.01 -1.06) skewX(-2.58)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b37e10"/>
+      <stop offset=".05" stop-color="#b78316"/>
+      <stop offset=".49" stop-color="#dab34c"/>
+      <stop offset=".82" stop-color="#efd16e"/>
+      <stop offset="1" stop-color="#f8dd7b"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_3" data-name="Безымянный градиент 3" x1="-1512.46" y1="133.44" x2="-1108.48" y2="133.44" gradientTransform="translate(-1106.84 610) rotate(-180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b37e10"/>
+      <stop offset=".05" stop-color="#b78316"/>
+      <stop offset=".49" stop-color="#dab34c"/>
+      <stop offset=".82" stop-color="#efd16e"/>
+      <stop offset="1" stop-color="#f8dd7b"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_4" data-name="Безымянный градиент 4" x1="-311.81" y1="160.32" x2="92.19" y2="160.32" gradientTransform="translate(252.88 270.61) rotate(52.41) scale(1.24 1.06) skewX(11.72)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b37e10"/>
+      <stop offset=".05" stop-color="#b78316"/>
+      <stop offset=".49" stop-color="#dab34c"/>
+      <stop offset=".82" stop-color="#efd16e"/>
+      <stop offset="1" stop-color="#f8dd7b"/>
+    </linearGradient>
+  </defs>
+  <g id="BACKGROUND_2" data-name="BACKGROUND 2">
+    <g>
+      <line class="cls-3" x1="-23.18" y1="23.57" x2="239.79" y2="606.58"/>
+      <line class="cls-4" x1="207.81" y1="595.04" x2="-1.03" y2="275.58"/>
+      <line class="cls-2" x1="2.92" y1="357.47" x2="404.34" y2="595.65"/>
+      <line class="cls-1" x1="130.82" y1="597.54" x2="-10.18" y2=".57"/>
+    </g>
+  </g>
+</svg>

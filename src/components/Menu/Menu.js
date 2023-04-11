@@ -5,9 +5,20 @@ import "./Menu.css";
 function Menu(props) {
   const {onVisibleBurger, isChangeBurger} = props;
   const resize = useMediaQuery('(min-width: 700px)');
+  const [scroll, setScroll] = React.useState(0);
+
+  const handleScroll = () => {
+    setScroll(window.scrollY);
+  };
+
+  React.useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <nav className="menu">
-      <div className="menu__stone"></div>
+    <nav className={`menu ${scroll < 100 ? "" : "menu__background"}`}>
+      {/* <div className="menu__stone"></div> */}
       {
         resize ? (
           <ul className="menu__links">

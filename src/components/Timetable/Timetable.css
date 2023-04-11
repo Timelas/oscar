@@ -6,6 +6,17 @@
   position: relative;
 }
 
+.timetable__stone {
+  position: absolute;
+  object-fit: contain;
+  width: 700px;
+  height: 600px;
+  top: -60px;
+  right: -300px;
+  transform: scaleX(-1);
+  left: -2;
+}
+
 .timetable__block {
   display: grid;
   grid-template-columns: repeat(7, 150px);
@@ -144,6 +155,14 @@
     width: 90px;
     height: 90px;
   }
+
+  .timetable__stone {
+    width: 600px;
+    height: 500px;
+    top: 50px;
+    right: -400px;
+    transform: rotate(20deg);
+  }
 }
 
 @media screen and (max-width: 1300px) {
@@ -162,18 +181,34 @@
   }
 
   .timetable__line-start {
-    height: 11.4px;
+    height: 12.85px;
     object-position: right;
   }
 
   .timetable__line-end {
-    height: 11.4px;
+    height: 12.85px;
     object-position: left;
   }
 
   .timetable__text {
     font-size: 12px;
     width: 100px;
+  }
+
+  .timetable__stone {
+    width: 500px;
+    height: 400px;
+    top: 50px;
+    right: -320px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .timetable__stone {
+    width: 400px;
+    height: 300px;
+    top: 50px;
+    right: -270px;
   }
 }
 
@@ -210,8 +245,9 @@
     align-items: center;
   }
 
-    .timetable__line-start {
+  .timetable__line-start {
     width: 64px;
+    height: 14.4px;
     padding-right: 45px;
     transform: rotate(90deg);
     justify-self: center;
@@ -221,8 +257,15 @@
   .timetable__line-end {
     width: 73px;
     padding-left: 45px;
+    height: 14.4px;
     transform: rotate(90deg);
     justify-self: center;
     align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .timetable__stone {
+    display: none;
   }
 }

@@ -5,8 +5,10 @@ import "./Details.css";
 function Details() {
   return (
     <section className="details" id="details">
-      <Title title={"Детали"} stone={true}/>
-      <p className="details__text">По всем вопросам вам поможет наш замечательный свадебный координатор Александра: +7 915 300-51-56.</p>
+      <Title title={"Детали"} stone={false}/>
+      <div className="details__stone"></div>
+      <div className="details__stone2"></div>
+      <p className="details__text">По всем вопросам вам поможет наш замечательный свадебный координатор Александра: +7&nbsp;915&nbsp;300&#8209;51&#8209;56.</p>
         <div className="details__line"></div>
       <p className="details__text">Андрей будет очень признателен, если вы поможете осуществить Ксюшину мечту о шикарном ремонте, подарив ваши пожелания в конверте.</p>
         <div className="details__line"></div>

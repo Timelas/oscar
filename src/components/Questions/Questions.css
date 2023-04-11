@@ -13,16 +13,13 @@
 }
 
 .question__stone {
-  background-image: url(../../images/stone4.svg);
   position: absolute;
-  background-size: contain;
-  width: 1100px;
-  height: 1300px;
-  top: -150px;
-  right: -400px;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  z-index: -1;
+  object-fit: contain;
+  width: 700px;
+  height: 600px;
+  top: -60px;
+  right: -300px;
+  left: -2;
 }
 
 .question__header {
@@ -224,10 +221,10 @@
   }
 
   .question__stone {
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     top: 0;
-    right: -400px;
+    right: -300px;
   }
 }
 
@@ -274,10 +271,10 @@
   }
 
   .question__stone {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     top: 150px;
-    right: -200px;
+    right: -300px;
   }
 }
 
@@ -343,8 +340,8 @@
   }
 
   .question__stone {
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     top: 150px;
     right: -200px;
   }
@@ -352,10 +349,15 @@
 
 @media screen and (max-width: 800px) {
   .question__stone {
-    width: 400px;
-    height: 400px;
-    top: 150px;
-    right: 0;
-    left: -100px;
+    width: 350px;
+    height: 350px;
+    top: 170px;
+    right: -240px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .question__stone {
+    display: none;
   }
 }

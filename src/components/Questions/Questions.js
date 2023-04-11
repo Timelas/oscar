@@ -1,5 +1,6 @@
 import React, {useState, useRef} from "react";
 import Title from "../Title/Title";
+import line from "../../images/line5.svg";
 import "./Questions.css";
 
 function Questions() {
@@ -27,8 +28,8 @@ function Questions() {
   
   return (
     <section className="question" id="questions">
-      <Title title={"Опрос"} stone={true}/>
-      <div className="question__stone"></div>
+      <Title title={"Опрос"} stone={false}/>
+      <img className="question__stone" src={line} alt="линии"></img>
       { isFormVisible ?
         <div className="question__container">
           <p className="question__text">Чтобы все прошло идеально и этот день запомнился надолго, пожалуйста, ответьте на несколько вопросов</p>
