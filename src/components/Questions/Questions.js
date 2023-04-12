@@ -32,10 +32,10 @@ function Questions() {
       <img className="question__stone" src={line} alt="линии"></img>
       { isFormVisible ?
         <div className="question__container">
-          <p className="question__text">Чтобы все прошло идеально и этот день запомнился надолго, пожалуйста, ответьте на несколько вопросов</p>
+          <p className="question__text">Чтобы все прошло идеально и этот день запомнился надолго, пожалуйста, ответьте на несколько вопросов:</p>
           <form className="question__form" ref={formRef} onSubmit={handleSubmit}>
           <p className="question__string">
-            <label htmlFor="who" className="question__label-input">Иия и фамилия:</label>
+            <label htmlFor="who" className="question__label-input">Имя и фамилия:</label>
             <input type="text" name="Имя и Фамилия" id="who" required className="question__input" minLength={2}></input>
           </p>
           <p className="question__string">

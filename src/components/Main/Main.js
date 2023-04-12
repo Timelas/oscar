@@ -1,5 +1,5 @@
 import React from "react";
-import Countdown from 'react-countdown';
+// import Countdown from 'react-countdown';
 import Header from "../Header/Header";
 import InfoDate from "../InfoDate/InfoDate";
 import Timetable from "../Timetable/Timetable";
@@ -11,7 +11,7 @@ import Footer from "../Footer/Footer";
 import "./Main.css";
 
 function Main(props) {
-  const {renderer, date} = props;
+  // const {renderer, date} = props;
 
   return (
     <section className="main">
@@ -20,9 +20,9 @@ function Main(props) {
       <Timetable />
       <Dresscode />
       <Details />
-      <Countdown
+      {/* <Countdown
         date={date}
-        renderer={renderer}/>
+        renderer={renderer}/> */}
       <Rsvp />
       <Questions />
       <Footer />

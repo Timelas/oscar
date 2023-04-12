@@ -22,9 +22,9 @@
   grid-template-columns: repeat(7, 150px);
   grid-template-rows: repeat(3, max-content);
   grid-template-areas:
-    "rings text-foto glasses text-plate music text-cake car"
+    "rings text-foto glasses text-plate cake text-music car"
     "line-rings line-foto line-glasses line-plate line-music line-cake line-car"
-    "text-rings plate text-glasses foto text-music cake text-car";
+    "text-rings plate text-glasses foto text-cake music text-car";
   margin-top: 70px;
   align-items: center;
   justify-items: center;
