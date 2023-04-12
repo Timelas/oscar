@@ -38,7 +38,7 @@ function Timetable() {
         <p className="timetable__text timetable__text_about_glasses">Фуршет 19:30</p>
         <p className="timetable__text timetable__text_about_plate">Выступление артистов <br /> 20.30</p>
         <p className="timetable__text timetable__text_about_cake">Свадебный торт <br /> 22.00</p>
-        <p className="timetable__text timetable__text_about_music">Танцы <br /> 22.00</p>
+        <p className="timetable__text timetable__text_about_music">Танцы <br /> 22.00 - 23.00</p>
         <p className="timetable__text timetable__text_about_car">Завершение вечера 23.00</p>
       </div>
     </section>

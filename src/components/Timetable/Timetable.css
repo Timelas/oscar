@@ -227,9 +227,9 @@
     grid-template-columns: 1fr 30px 1fr;
     grid-template-areas:
       "rings line-rings text-rings"
-      "text-foto line-foto foto"
+      "text-foto line-foto plate"
       "glasses line-glasses text-glasses"
-      "text-plate line-plate plate"
+      "text-plate line-plate foto"
       "cake line-cake text-cake"
       "text-music line-music music"
       "car line-car text-car";
