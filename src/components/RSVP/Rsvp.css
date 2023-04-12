@@ -92,7 +92,7 @@
   flex-direction: row;
   margin: 0;
   gap: 25px;
-  align-self: center;
+  align-self: flex-end;
 }
 
 .rsvp__button {
