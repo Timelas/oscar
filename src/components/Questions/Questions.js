@@ -5,7 +5,7 @@ import "./Questions.css";
 
 function Questions() {
   const formRef = useRef(null)
-  const scriptUrl = "https://script.google.com/macros/s/AKfycby_BYT6LzPV3FZHn66CPeQcYu6bE5b3ZBjuvAoU08L_RdiIzQ7viRTg5mtfej77Y_iK/exec"
+  const scriptUrl = "https://script.google.com/macros/s/AKfycbwlNXnW6EGfqYIIXkw0tI1RNIdKtiAD6162QYldXepxqrm8vmGzDRiS3vEeNoScg76l/exec"
   const [loading, setLoading] = useState(false);
   const [isFormVisible, setisFormVisible] = useState(true);
 
@@ -43,13 +43,13 @@ function Questions() {
             <input type="text" name="Алкоголь" id="alco" required className="question__input"></input>
           </p>
           <fieldset className="question__string">Необходима ли остановка:
-            <label  htmlFor="yes-transfer" className="question__label">
-              <input className="question__unvisible" type="radio" name="Трансфер" value="Нужен" id="yes-transfer"></input>
+            <label  htmlFor="yes-stop" className="question__label">
+              <input className="question__unvisible" type="radio" name="Остановка" value="Нужна" id="yes-stop"></input>
               <span className="question__visible-radio"></span>
               <span className="question__text-span">Да</span>
             </label>
-            <label className="question__label" htmlFor="no-transfer">
-              <input className="question__unvisible" type="radio" name="Трансфер" value="Нужен" id="no-transfer"></input>
+            <label className="question__label" htmlFor="no-stop">
+              <input className="question__unvisible" type="radio" name="Остановка" value="Не нужна" id="no-stop"></input>
               <span className="question__visible-radio"></span>
               <span className="question__text-span">Нет</span>
             </label>
