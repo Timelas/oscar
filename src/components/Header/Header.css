@@ -269,7 +269,7 @@
   .header__image-mobile {
     height: 62vh;
     object-fit: cover;
-    margin: 45px 0 0;
+    margin: 25px 0 0;
     position: relative;
     align-self: center;
   }
@@ -297,7 +297,7 @@
     align-items: center;
     justify-content: center;
     align-self: center;
-    margin: 20px 0 0;
+    margin: 50px 0 0;
     width: 60%;
     object-fit: contain;
   }

@@ -349,8 +349,8 @@
 
 @media screen and (max-width: 800px) {
   .question__stone {
-    width: 350px;
-    height: 350px;
+    width: 330px;
+    height: 320px;
     top: 170px;
     right: -240px;
   }
